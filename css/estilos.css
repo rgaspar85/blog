@@ -9,8 +9,24 @@ body{
 
 #container{
      width: 70%;
-     padding: 1em;
+     padding: 0;
      text-align: left;
      border: 1px solid black;
      margin: 0 auto;
+}
+
+#cabecera{
+    box-shadow: 1px 0 2px 1px rgba(100, 79, 177,0.8);
+    background-color: rgba(100, 79, 177,0.8);
+    color: white;
+    font-size: 15px;
+    padding: 0.5em;
+    font-weight: bold;
+    margin: 0;
+}
+
+#cabecera #tagline{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
 }

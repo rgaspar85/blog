@@ -16,10 +16,9 @@ body{
 }
 
 #cabecera{
-    box-shadow: 1px 0 2px 1px rgba(100, 79, 177,0.8);
-    background-color: rgba(100, 79, 177,0.8);
-    color: white;
-    font-size: 15px;
+    box-shadow: 1px 0 2px 1px rgba(68, 25, 25, 0.5);
+    background:black;
+    color: white;}  
     padding: 0.5em;
     font-weight: bold;
     margin: 0;
@@ -29,4 +28,15 @@ body{
     padding: 0 0 0 1em;
     font-weight: normal;
     font-size: 0.8em;
+}
+
+#cabecera #logo{
+    width: 20px;
+    vertical-align: middle;
+}
+
+#footer{
+    background: black;
+    color: white;
+    padding: 0;
 }

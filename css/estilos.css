@@ -16,9 +16,8 @@ body{
 }
 
 #cabecera{
-    background-color: rgba(100, 79, 177,0.8);
+   background:rgba(100, 79, 177,0.8);
     color: white;
-    font-size: 15px;
     padding: 0.5em;
     font-weight: bold;
     margin: 0;
@@ -33,4 +32,11 @@ body{
 #cabecera img{
    width: 20px;
    vertical-align: middle;
+}
+
+#footer{
+    background: rgba(100, 79, 177,0.8);
+    color: white;
+    padding: 5px;
+
 }
